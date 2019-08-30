@@ -17,6 +17,5 @@ fun rotLeft(a: Array<Int>, d: Int): Array<Int> {
 
 fun main() {
     val result = rotLeft(arrayOf(33, 47,70,37,8,53,13,93,71,72,51,100,60,87,97), 13)
-
     println(result.joinToString(" "))
 }
