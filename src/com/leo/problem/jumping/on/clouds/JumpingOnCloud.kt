@@ -11,8 +11,6 @@ fun jumpingOnClouds(c: Array<Int>): Int {
      val jumpingOne = index + 1
      val jumpingTwo = index + 2
 
-
-
         when {
             (c[jumpingOne] == 0) and (c[jumpingTwo] == 1) ->
             { index = jumpingOne
