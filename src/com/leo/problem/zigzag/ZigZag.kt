@@ -51,5 +51,6 @@ fun convert(s: String, numRows: Int): String {
 }
 
 fun main() {
-    print(convert("PAYPALISHIRING",4))
+    //print(convert("PAYPALISHIRING",4))
+    "          -42".forEach { element -> println(element) }
 }
